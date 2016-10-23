@@ -1,0 +1,853 @@
+@CHARSET "ISO-8859-1";
+
+
+body{width:100%; height:100%; font-family: 'Quattrocento', serif; }
+html{width:100%; height:100%; font-family: 'Quattrocento', serif;}
+
+
+
+/*Logo*/
+
+.imgLogo{
+    width: 100%;
+
+   /* background: #fff;
+    border-radius: 0 0 60px 60px;
+    border-bottom: 5px solid #000;
+
+    */
+}
+
+.enlace-logo{
+	width:150px;
+	height:140.82px;
+	background: none;
+	background: #fff;
+	background-image: url("../Imagenes/logo/el-marques.png");
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 150px 140.82px;
+	position: relative;
+    top: 0px;
+    border-radius: 0 0 60px 60px;
+    border-bottom: 5px solid #000;
+	
+}
+.enlace-logo:hover, .logo-active{
+	background-color:#fff !important;
+	background-image: url("../Imagenes/logo/logo2.png") !important;
+
+		
+}
+
+.entrada-active{
+
+	background: #ffa638 !important; 
+}
+
+/*Menu principal*/
+
+.menuPrincipal .nav{
+	
+	float: none;
+    display: inline-block;
+
+    
+	
+}
+
+.menuPrincipal{
+	
+	text-align: center;
+	background: #fff;
+    max-height: 88px;
+    border-bottom: 5px solid #000;
+    z-index: 1000;
+}
+
+.menuPrincipal .entrada{
+	font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+	height: 83px;
+    padding-top: 32px;
+
+}
+
+/* .menuPrincipal .B{
+	
+	 border-bottom: 5px solid #000;
+}*/
+
+
+.menuPrincipal .entrada:hover{
+	
+	background: #ffa638; 
+}
+
+@media (max-device-width:767px){
+	
+	.menuPrincipal{
+		display: none;
+	}
+	.mainMenu{
+		text-align: center;
+		
+	}
+
+	.row-menuCorto .navbar-toggle {
+	    border-color: #000;
+	    float: none;
+	    margin: 10px auto;
+	    margin-left: 5%;
+	    display: inline;
+	    background: 
+	}
+
+	/*carrusel*/
+
+
+
+	.left {
+   	 left: -1em !important;
+	}	
+
+	.carousel-control > span {
+	    top: 38% !important;
+	    font-size: 2em !important;
+	}
+
+
+		.row-menuCorto .liMenu a {
+
+		color: #000;
+
+	}
+}
+
+@media (max-width:767px){
+	
+	.menuPrincipal{
+		display: none;
+	}
+	
+
+	.navbar-header {
+    display: inline-block !important;
+    text-align: center;
+	}
+
+		.row-menuCorto .liMenu a {
+
+		color: #000;
+
+	}
+	
+	
+}
+
+
+@media (min-width:768px) and (min-device-width:768px)  {
+
+
+    .nav-peque, .tools-peque, .row-menuCorto{
+
+    display:none;
+
+
+    }
+
+
+
+}
+
+
+#myCarousel .slider-visitanos .contenedor-titulo{
+
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding-top: 18vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: rgba(102, 96, 88, 0.4);
+}
+
+#myCarousel .slider-visitanos .contenedor-titulo h2{
+
+    color: #fff;
+    font-size: 4em;
+    text-shadow: 5px 3px 6px #000;
+    padding-bottom: 10vh;
+}
+
+
+
+	#myCarousel .slider-fiestas a{
+
+		    top: 37vh;
+		    left: 47vw;
+		    position: absolute;
+		    font-size: 2.5em;
+		    width: 200px;
+		    height: 200px;
+		    background-color: #ffa638;
+		    border-radius: 100%;
+		    padding: 18px;
+		    text-align: center;
+		    color: #000;
+		    font-weight: 700;
+		    border: 3px solid #fff;
+		    opacity: 0.75;
+		    -webkit-transition: -webkit-transform 1s,width 1s, height 1s, font-size 1s opacity 1s, left 1s;
+		    -o-transition-property: -o-transform,width, height, font-size, opacity, left;
+		    -o-transition-duration: 1s,1s, 1s, 1s, 1s,1s;
+		    -moz-transition-property: -o-transform,width, height, font-size, opacity, left;
+		    -moz-transition-duration: 1s,1s,1s, 1s, 1s,1s;
+		    transition-property: transform,width, height, font-size, opacity, left;
+		    transition-duration: 1s,1s,1s, 1s, 1s,1s;
+	}
+
+	#myCarousel .slider-fiestas a:hover{
+
+		width: 350px;
+		height: 350px;
+		font-size: 4.5em;
+		opacity: 1;
+		text-decoration: none;
+		/transform: rotate(360deg);
+	    -webkit-transform: rotate(360deg);
+	    -moz-transform: rotate(360deg);
+	    -o-transform: rotate(360deg);
+	    -ms-transform: rotate(360deg);
+	    z-index: 3;
+	    left: 39%;
+	}
+
+	#myCarousel .slider-fiestas a:active{
+
+		text-decoration: none;
+	}
+
+#myCarousel .banner-celebraciones{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+    height: 100%;
+
+
+}
+
+#myCarousel .banner-celebraciones img{
+
+    width: 70% !important;
+    height: 100% !important;
+    display: inline;
+}
+
+#myCarousel .banner-celebraciones h2:first-child{    
+
+	color: #c2bcb6;
+    text-align: center;
+    padding-top: 4vh;
+    font-size: 3em;
+
+
+}
+
+#myCarousel .banner-celebraciones .titulo2{
+    position: absolute;
+    bottom: 13%;
+    color: #c2bcb6;
+    padding-top: 4vh;
+    font-size: 4em;
+    left: 28vw;
+    color: #b34747;
+    text-shadow: 0.1px 0.1px 0px #fff;
+}   
+
+
+
+#myCarousel .banner-celebraciones div h2:first-child{ 
+
+	display: block;
+}
+
+#myCarousel .banner-celebraciones div {
+
+	text-align: center;
+}
+
+
+#myCarousel .banner-celebraciones div h2{
+
+    background-color: rgba(51, 30, 27, 0.4);
+    display: inline;
+    font-size: 3em;
+    margin: 10%;
+    border-radius: 5%;
+    color: #ffa727;
+    text-shadow: 1px 1px 0px #000;
+
+
+}
+
+@media (max-width:767px) and (max-device-width:767px)  {
+
+	#myCarousel .slider-fiestas a{
+
+		top: 1vh;
+    	left: 1%;
+    	font-size: 1em;
+	    width: 100px;
+	    height: 100px;
+	}
+
+	#myCarousel .slider-visitanos .contenedor-titulo h2{
+
+		font-size: 1.4em;
+		padding-bottom: 0vh;
+
+	}
+
+	#myCarousel .slider-visitanos .contenedor-titulo {
+
+	    padding-top: 9vh;
+
+	}
+
+	#myCarousel .banner-celebraciones h2:first-child {
+
+	    padding-top: 0vh;
+	    font-size: 1.8em;
+	}
+
+	#myCarousel .banner-celebraciones div h2 {
+    
+    	font-size: 1em;
+	}
+
+	#myCarousel .banner-celebraciones .titulo2 {
+   
+    font-size: 1.8em;
+
+	}
+
+}
+
+
+/*Menú pequeño*/
+
+.row-menuCorto
+
+.row-menuCorto .contenedor-logo{
+	text-align: center;
+	background: #fff !important;
+}
+
+.row-menuCorto .imgLogo{
+
+	    width: 68%;
+		
+	
+}
+
+.nav-peque .liPeque{
+    display:inline-block;
+    margin-left:20px;
+     color:#fff;
+  }
+
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: #000;
+}
+
+.tools_peque{
+
+	height: 54px;
+
+
+}
+
+/* carrusel */
+@media (min-device-width:767px){
+	#myCarousel .item img{
+		
+	    height: 88vh;
+	    width: 100vw;
+		
+	}
+
+
+}
+
+@media (min-width:1600px){
+	
+	#myCarousel .item img{
+	
+    height: 92vh;
+    width: 100vw;
+	
+	}
+
+
+}
+
+.carousel-control > span{
+    position: absolute;
+    top: 30%;
+    font-size: 14em;
+}
+
+.left{
+	
+	left: -4em;
+}
+
+
+/*Banner intro*/
+
+.contenedor-banner{
+
+	background: url("../Imagenes/fondos/leather_1_@2X.png");
+}
+
+.banner{
+
+	height: 50vh;
+	padding: 0px;
+}
+
+.banner-cocina{
+
+	background-image: url("../Imagenes/cocina.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+  	background-size: 100% 100%;
+}
+
+.banner-comedor{
+
+	background-image: url("../Imagenes/marques-dentro.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+  	background-size: 100% 100%;
+}
+
+.banner-terraza{
+
+	background-image: url("../Imagenes/marques-fuera.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.banner-entorno{
+
+	background-image: url("../Imagenes/entorno.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+
+@media (max-device-width:767px){
+
+	.banner-entorno{
+		background-image: url("../Imagenes/entornoMovil.png");
+	}
+
+	.banner-terraza{
+
+		background-image: url("../Imagenes/fueraMovil.png");
+
+	}
+
+
+	.banner-cocina{
+
+		background-image: url("../Imagenes/cocinaMovil.png");
+	}
+
+	.banner-comedor{
+
+		background-image: url("../Imagenes/dentroMovil.png");
+
+	}
+
+
+
+
+}
+
+
+.fondo-banner{
+	width: 20%;
+	height: 20%;
+	-webkit-transition: width 1.3s, height 1.8s; /* For Safari 3.1 to 6.0 */
+    transition: width 1.3s, height 1.8s;
+}
+
+.banner:hover .fondo-banner{
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 210, 88, 0.4);
+	z-index: 3;
+}
+
+.banner:hover {
+
+	
+/transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    z-index: 3;
+
+
+}
+
+.titulo-banner{
+
+	position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    top: 0;
+    border-left: 15px solid #ffa638;
+    padding: 10px;
+
+}
+
+.titulo-banner h2{
+	font-size: 4em;
+
+
+}
+
+/*Información principal*/
+
+.contenedor-info{
+
+}
+.information{
+
+	margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.information h2{
+
+    text-align: center;
+    font-size: 3em;
+    margin: 3%;
+    font-weight: 900;
+    text-shadow: 1px 3px 0px #FFD258;
+}
+
+.information h6{
+
+	font-size: 4em;
+}
+
+.information p{
+
+    font-size: 1.3em;
+    margin-left: 7%;
+    width: 70%;
+}
+
+.information img{
+
+	float: right;
+}
+
+.information li{
+
+	list-style: none;
+}
+
+@media (max-device-width:767px){
+
+	.information h2{
+		font-size: 3em;
+	}
+
+	.information h6{
+
+	 font-size: 1.5em;
+   	 font-weight: 600;
+	}
+
+	.information p{
+
+		font-size:1em;
+
+	}
+
+	.information{
+
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+}
+
+
+@media (max-width:767px){
+
+
+
+}
+
+
+/*Contenedor celebraciones*/
+
+.celebraciones{
+
+	background: url("../Imagenes/fondos/boda2.jpg");
+	background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% -51.0511px;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.celebraciones .contenedor-celebraciones .imagenes-celebraciones img{
+
+	 border-radius: 100%;
+	 display: inline-block;
+
+}
+
+.celebraciones .contenedor-celebraciones h2{
+
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 1px 2px 0px #000;
+    margin-left: 1.4%;
+    margin-bottom: 5vh;
+
+}
+
+.celebraciones .contenedor-celebraciones{
+
+	
+	top: 7vh;
+}
+
+.imagenes-celebraciones.col-xs-12{
+
+	text-align: center;
+}
+
+.imagenes-celebraciones h3{
+
+	color: #fff;
+    font-size: 3em;
+    text-shadow: 1px 2px 0px #000;
+}
+
+
+@media (max-device-width:767px){
+
+}
+
+@media (max-width:767px){
+
+	.imagenes-celebraciones h3{
+
+		font-size: 1em;
+
+	}
+
+	footer .pie .copyright span {
+
+		display: block;
+	}
+
+	.celebraciones .contenedor-celebraciones h2 {
+    	font-size: 2em;
+
+	}
+	
+	.celebraciones .contenedor-celebraciones .imagenes-celebraciones img{
+		
+	
+			
+	}
+	
+		.celebraciones {
+			
+			min-height:174vh;
+		}
+	
+
+}
+
+/*Trabajando*/
+
+.trabajando h2{
+
+  font-size: 4em;
+  position: relative;
+  top: 40vh;
+}
+
+@media (max-device-width:767px )
+{
+	.trabajando h2{
+
+	  top: 25vh;
+	}
+}
+
+.trabajando .der{
+
+  float: right;
+}
+.trabajando{
+	min-height: 100vh;
+
+
+}
+
+/*footer*/
+
+footer{
+
+	background: #000;
+    /* background: #ffa638; */
+    border-top: 9px solid #ffa638;
+    min-height: 35vh;
+
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 1.5em;
+    padding-bottom: 11px;
+    border-bottom: 5px solid;
+    display: inline-block;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+footer .buscanos ul, footer .informacion ul{
+
+	padding: 0px;
+}
+
+footer .buscanos li, footer .informacion li{
+
+	list-style: none;
+}
+
+
+footer .informacion h3{
+	padding-left: 3%;
+	color: #ffa638;
+}
+
+footer .informacion p{
+
+	padding-left: 5%;
+	    color: #7b6e6e;
+    /* color: #9c7575; */
+}
+
+footer .redesSociales{
+
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+footer .redesSociales a{
+
+	padding: 5px;
+
+}
+
+footer .redesSociales a:hover{
+
+	text-decoration: none;
+
+}
+
+footer .redesSociales a img{
+
+	border-radius: 100%;
+    padding: 5px;
+    background-color: #664e46;
+
+
+    -webkit-transition: -webkit-transform 1s,,background 1s;
+    -o-transition-property: -o-transform,background;
+    -o-transition-duration: 1s,1s;
+    -moz-transition-property: -o-transform,background;
+    -moz-transition-duration: 1s,1s;
+    transition-property: transform,background;
+    transition-duration: 1s,1s;
+
+
+}
+
+footer .redesSociales .facebook img:hover{
+
+
+    background: #1ec7e6;
+}
+
+footer .redesSociales .google img:hover{
+
+
+    background: #b72c2c;
+}
+
+/*iframe googlemaps*/
+
+footer .buscanos iframe{
+
+	border: 5px solid #7b6e6e !important;
+}
+
+footer .pie{
+
+	background-color: #806747;
+}
+
+footer .pie .copyright {
+
+    padding: 20px 0px;
+}
+
+footer .pie .copyright a {
+
+	    color: #8c1414;
+}
+
+footer .pie .copyright span:first-child {
+
+	color: #fff;
+}
+
+
